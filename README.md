@@ -32,7 +32,7 @@ jsonc
 <br>
 <kbd>
 <a href="https://youtu.be/g5jfXoJ_pv8">
-<img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="トラックパッドの設定">
+<img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="トラックパッドの設定" />
 </a>
 </kbd>
 <!-- </div> -->
