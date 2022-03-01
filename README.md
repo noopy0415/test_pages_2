@@ -23,16 +23,16 @@ jsonc
 
 - トラックパッドの設定
 
-<div align="center">
+<!-- <div align="center"> -->
 <kbd>
 <img src="https://cloud.githubusercontent.com/assets/7123644/26231237/0d584952-3c89-11e7-866e-9078bd8207a8.png" />
 </kbd>
 <kbd>
-<a href="https://youtu.be/g5jfXoJ_pv8">
-<img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="トラックパッドの設定">
-</a>    
+    <a href="https://youtu.be/g5jfXoJ_pv8">
+    <img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="トラックパッドの設定">
+    </a>    
 </kbd>
-</div>
+<!-- </div> -->
 
 <br>
 
