@@ -23,9 +23,9 @@ jsonc
 
 - トラックパッドの設定
 
-<div align="center" border="1px solid rgb(221, 221, 221)">
+<div align="center"><kbd>
     <a href="https://youtu.be/g5jfXoJ_pv8"><img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="トラックパッドの設定"></a>
-</div>
+</kbd></div>
 
 <br>
 
