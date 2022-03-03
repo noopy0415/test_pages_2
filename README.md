@@ -23,13 +23,10 @@ jsonc
 
 - トラックパッドの設定
 
-    <div align="center">
-    <kbd>
+    <div align="center"><kbd>
     <a href="https://youtu.be/g5jfXoJ_pv8">
     <img src="https://cloud.githubusercontent.com/assets/7123644/26231237/0d584952-3c89-11e7-866e-9078bd8207a8.png" alt="トラックパッドの設定" />
-    </a>
-    </kbd>
-    </div>
+    </a></kbd></div>
 
     <br>
 
