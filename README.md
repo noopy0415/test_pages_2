@@ -24,7 +24,9 @@ jsonc
 - トラックパッドの設定
 
     <div align="center"><kbd>
+    <a href="https://youtu.be/g5jfXoJ_pv8">
     <img src="200402125428-kitten-asleep-stock-super-169.jpg" alt="トラックパッドの設定">
+    </a>
     </kbd></div>
 
     <br>
