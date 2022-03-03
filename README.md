@@ -21,6 +21,15 @@ jsonc
 }
 ```
 
+
+1. ダウンロードボタンをクリックします。
+
+    <div align="center"><kbd>
+    <img src="200402125428-kitten-asleep-stock-super-169.jpg" width="70%">
+    </kbd></div>
+
+    <br>
+
 - トラックパッドの設定
 
     <div align="center"><kbd>
