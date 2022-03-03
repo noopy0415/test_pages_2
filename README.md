@@ -24,8 +24,8 @@ jsonc
 
 1. ダウンロードボタンをクリックします。
 
-    <div align="center"><kbd>
-    <img src="200402125428-kitten-asleep-stock-super-169.jpg" width="70%">
+    <div align="center" width="70%"><kbd>
+    <img src="200402125428-kitten-asleep-stock-super-169.jpg">
     </kbd></div>
 
     <br>
