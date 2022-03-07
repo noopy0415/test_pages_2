@@ -54,9 +54,13 @@ jsonc
 
 - キーボードの設定
 
-<div align="center" style="border:1px solid rgb(221, 221, 221);">
-    <a href="https://youtu.be/MQtYH4foLto"><img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="キーボードの設定" /></a>
-</div>
+    <div align="center" style="border:1px solid rgb(221, 221, 221);">
+        <kbd>
+            <a href="https://youtu.be/MQtYH4foLto">
+                <img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" alt="キーボードの設定" />
+            </a>
+        <kbd>
+    </div>
 
 <br>
 
