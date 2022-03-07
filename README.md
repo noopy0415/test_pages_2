@@ -54,7 +54,7 @@ jsonc
 
 - キーボードの設定
 
-    <div align="center"">
+    <div>
         <kbd>
             <a href="https://youtu.be/MQtYH4foLto">
                 <img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" 
