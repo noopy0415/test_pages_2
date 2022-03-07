@@ -60,7 +60,8 @@ jsonc
                 <img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" 
     alt="キーボードの設定"
     width="50%"
-    style="border:1px solid rgb(221, 221, 221); />
+    style="border:1px solid rgb(221, 221, 221);" 
+    />
             </a>
         <kbd>
     </div>
