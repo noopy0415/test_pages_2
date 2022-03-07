@@ -59,7 +59,7 @@ jsonc
             <a href="https://youtu.be/MQtYH4foLto">
                 <img src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg" 
     alt="キーボードの設定"
-    width="50%"
+    width="100%"
     style="border:1px solid rgb(221, 221, 221);" 
     />
             </a>
