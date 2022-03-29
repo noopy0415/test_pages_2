@@ -1,6 +1,23 @@
 # markdown-test
 private-test
 
+<details>
+<summary>これは中身が整形されない</summary>
+1. 野菜**A**の皮を剥く。
+2. 乱切りにする。
+3. 調味料**B**と合わせて炒める。
+    - `火傷`に注意。
+</details>
+
+<details>
+<summary>これは中身が整形される</summary>
+
+1. 野菜**A**の皮を剥く。
+2. 乱切りにする。
+3. 調味料**B**と合わせて炒める。
+    - `火傷`に注意。
+</details>
+
 todo
 
 - [ ] test1
