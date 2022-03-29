@@ -7,6 +7,9 @@ private-test
 2. 乱切りにする。
 3. 調味料**B**と合わせて炒める。
     - `火傷`に注意。
+        ```python
+        from test import test
+        ```
 </details>
 
 <details>
@@ -16,7 +19,13 @@ private-test
 2. 乱切りにする。
 3. 調味料**B**と合わせて炒める。
     - `火傷`に注意。
+        ```python
+        from test import test
+        ```
 </details>
+
+
+
 
 todo
 
