@@ -1,6 +1,19 @@
 # markdown-test
 private-test
 
+## 動画
+
+- imgタグ
+<img src="new_user1.gif" alt="alt" width="10%">
+
+- videoタグ
+
+<video poster='200402125428-kitten-asleep-stock-super-169.jpg'>
+    <source src="/new_user1.gif">
+</video>
+うまく行かない。。。
+<br><br>
+
 <details>
 <summary>これは中身が整形されない</summary>
 1. 野菜**A**の皮を剥く。
