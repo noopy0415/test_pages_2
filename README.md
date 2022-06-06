@@ -114,3 +114,10 @@ jsonc
 
 <br>
 
+```http
+### posts
+GET /api/posts HTTP/1.1
+Host: localhost
+Accept: application/json
+Authorization: Bearer *********
+```
