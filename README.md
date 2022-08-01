@@ -11,7 +11,7 @@ private-test
 
 **組み合わせの例**
 
-| 色 | R | G | B | 表示色(16進法)|
+| 色 | R | G | B | 表示色(16進法) |
 | - | - | - | - | - | - |
 | 赤(Red) | FF(255) | 00(0) | 00(0) | ![#FF0000](https://via.placeholder.com/15/FF0000/FF0000.webp) `#FF0000` |
 | 黄(Yellow) | FF(255) | FF(255) | 00(0) | ![#FFFF00](https://via.placeholder.com/15/FFFF00/FFFF00.webp) `#FFFF00` |
