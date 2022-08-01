@@ -1,6 +1,28 @@
 # markdown-test
 private-test
 
+## Clor
+
+<br>
+
+コンピューターグラフィックで色を表現する場合には、各色を16進法で表現することが多いです。  
+16進法は0〜15の数値を、0〜9とA〜Fを使って表現します。
+(Ａ＝１０、Ｂ＝１１、Ｃ＝１２、Ｄ＝１３、Ｅ＝１４、Ｆ＝１５、２５５＝ＦＦ)
+
+**組み合わせの例**
+
+| 色 | R | G | B | 表示色(16進法)|
+| - | - | - | - | - | - |
+| 赤(Red) | FF(255) | 00(0) | 00(0) | ![#FF0000](https://via.placeholder.com/15/FF0000/FF0000.webp) `#FF0000` |
+| 黄(Yellow) | FF(255) | FF(255) | 00(0) | ![#FFFF00](https://via.placeholder.com/15/FFFF00/FFFF00.webp) `#FFFF00` |
+| 緑(Green) | 00(0) | FF(255) | 00(0) | ![#00FF00](https://via.placeholder.com/15/00FF00/00FF00.webp) `#00FF00` |
+| 青緑(Cyan) | 00(0) | FF(255) | FF(255) | ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.webp) `#00FFFF` |
+| 青(Blue) | 00(0) | 00(0) | FF(255) | ![#0000FF](https://via.placeholder.com/15/0000FF/0000FF.webp) `#0000FF` |
+| 赤紫(Mazenda) | FF(255) | 00(0) | FF(255) | ![#FF00FF](https://via.placeholder.com/15/FF00FF/FF00FF.webp) `#FF00FF` |
+| 白(White) | FF(255) | FF(255) | FF(255) | ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/FFFFFF.webp) `#FFFFFF` |
+
+<br>
+
 ## 動画
 
 - imgタグ
