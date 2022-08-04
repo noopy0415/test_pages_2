@@ -3,16 +3,16 @@ private-test
 
 ## tolk ui
 
-<img src="" width="10%">
-        <div align="left">
-        顧客A: 「壊れたみたい。画像ファイルをおいたんだけど読み込んでくれないんだよね。」
-        </div>
-        <div align="right">
-        「画像ファイルを置いた場所はどこですか?」 :営業
-        </div>
-        <div align="left">
-        顧客A: 「inputフォルダだよ? 間違ってた?」
-        </div>
+<div align="left">
+<b>顧客A</b>: 「壊れたみたい。画像ファイルをおいたんだけど読み込んでくれないんだよね。」
+</div>
+<div align="right">
+「画像ファイルを置いた場所はどこですか?」 :<b>営業</b>
+</div>
+<div align="left">
+<b>顧客A</b>: 「inputフォルダだよ? 間違ってた?」
+</div>
+
 
 
 ## Clor
