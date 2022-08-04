@@ -1,6 +1,20 @@
 # markdown-test
 private-test
 
+## tolk ui
+
+<img src="" width="10%">
+        <div align="left">
+        顧客A: 「壊れたみたい。画像ファイルをおいたんだけど読み込んでくれないんだよね。」
+        </div>
+        <div align="right">
+        「画像ファイルを置いた場所はどこですか?」 :営業
+        </div>
+        <div align="left">
+        顧客A: 「inputフォルダだよ? 間違ってた?」
+        </div>
+
+
 ## Clor
 
 <br>
