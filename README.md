@@ -6,13 +6,14 @@ private-test
 <div align="left">
 <b>顧客A</b>: 「壊れたみたい。画像ファイルをおいたんだけど読み込んでくれないんだよね。」
 </div>
-<div align="right">
-「画像ファイルを置いた場所はどこですか?」 :<b>営業</b>
+<div align="right"><b>営業</b><br>
+<img src="https://placehold.jp/16/f0f0f0/000000/300x32.png?
+text=%E5%90%BE%E8%BC%A9%E3%81%AF%E7%8C%AB%E3%81%A7%E3%81%82%E3%82%8B%E5%90%8D%E5%89%8D%E3%81%AF%E3%81%BE%E3%81%A0%E3%81%AA%E3%81%84)">
 </div>
 <div align="left">
 <b>顧客A</b>: 「inputフォルダだよ? 間違ってた?」
 </div>
-
+<img src="https://placehold.jp/16/eeeeee/000000/150x150.png?text=%E5%90%BE%E8%BC%A9%E3%81%AF%E3%81%AD%E3%81%93%E3%81%A7%E3%81%82%E3%82%8B%E5%90%8D%E5%89%8D%E3%81%AF%E3%81%BE%E3%81%A0%E3%81%AA%E3%81%84&css=%7B%22border-width%22%3A%22%201px%22%2C%22border-radius%22%3A%2275px%22%7D">
 
 
 ## Clor
