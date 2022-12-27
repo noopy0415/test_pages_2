@@ -157,3 +157,19 @@ Host: localhost
 Accept: application/json
 Authorization: Bearer *********
 ```
+
+details
+
+<details>
+<summary>解答例</summary>
+
+|<img src="200402125428-kitten-asleep-stock-super-169.jpg" alt="トラックパッドの設定">|
+|-|
+
+</details>
+
+
+|test| test|
+|-|-|
+|<pre>testfdsfdsafkjdskjflkdsa fdjskfjkldsalfjdsajl fjdksajflkdsjlkfjlkdsjlakfj fdjsklafj ldsj lkfjdsla; fjdksla fjldsajfkl<br>test</pre>|<details><summary>解答例</summary><img src="200402125428-kitten-asleep-stock-super-169.jpg" alt="トラックパッドの設定"></details>|
+
