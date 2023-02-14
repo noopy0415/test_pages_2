@@ -64,6 +64,6 @@ exclude:
 
 markdown: GFM
 
-kramdown:
-   input: GFM
-   hard_wrap: false
+# kramdown:
+#    input: GFM
+#    hard_wrap: false
