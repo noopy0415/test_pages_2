@@ -62,7 +62,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-markdown: kramdown
+markdown: GFM
 
 kramdown:
    input: GFM
