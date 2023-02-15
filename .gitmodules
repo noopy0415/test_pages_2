@@ -1,0 +1,3 @@
+[submodule "doc/markdown-test"]
+	path = doc/markdown-test
+	url = git@github.com:noopy0415/markdown-test.git
