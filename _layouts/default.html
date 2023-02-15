@@ -3,13 +3,12 @@
 <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
-    <link rel="stylesheet" href="{{ "/css/style.css" | relatvie_url }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.scss">
+    <link rel="stylesheet" href="{{ "/css/style.scss" | relatvie_url }}">
 </head>
 <body>
     <nav>
-        <a href="/">Home</a>
-        <a href="/blog/">Blog</a>
+        <a href="{{ site.baseurl }}">HOME</a>
     </nav>
     <h1>{{ page.title }}</h1>
     <section>
