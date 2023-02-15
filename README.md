@@ -4,3 +4,10 @@
 {{ site.documents }}
 
 [doc/01](doc/01.md)
+
+
+GitHub Pagesの条件
+
+- 絶対pathが使いずらい
+  - `{{ site.baseurl }}`をつける必要がある。
+- 
