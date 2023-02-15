@@ -259,8 +259,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-github-metadata
-  minima (~> 2.5)
 
 BUNDLED WITH
    2.4.6

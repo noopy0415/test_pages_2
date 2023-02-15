@@ -9,5 +9,5 @@ source 'https://rubygems.org'
 # end
 
 gem "github-pages", group: :jekyll_plugins
-gem "minima", "~> 2.5"
-gem "jekyll-github-metadata"
+# gem "minima", "~> 2.5"
+# gem "jekyll-github-metadata"

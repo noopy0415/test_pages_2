@@ -3,14 +3,14 @@ title: ELITES
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   
-# url: "https://noopy0415.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://noopy0415.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/test_pages_2" # the subpath of your site, e.g. /blog
 # twitter_username: jekyllrb
 # github_username: noopy0415
 
 # サポートしているテーマ https://pages.github.com/themes/
 # Build settings
-theme: minima
+# theme: minima
 # theme: jekyll-theme-slate
 #theme: jekyll-theme-cayman
 # theme: jekyll-theme-midnight
@@ -18,9 +18,9 @@ theme: minima
 # theme: jekyll-theme-minimal
 
 
-plugins:
-  - jekyll-feed
-  - "jekyll-github-metadata"
+# plugins:
+#   - jekyll-feed
+  # - "jekyll-github-metadata"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -40,6 +40,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - docker-compose.yml
 include:
   - doc/
 
