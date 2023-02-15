@@ -7,7 +7,6 @@
 
 [doc/01](doc/01.md)
 
-
 GitHub Pagesの条件
 
 - 絶対pathが使いずらい
@@ -20,3 +19,7 @@ GitHub Pagesの条件
 index.mdがあればそれを読み込みindex.htmlを生成する。  
 なければREADME.mdから生成する。  
 それもなかったらindex.htmlは生成しない(他のページは生成する)
+
+# サブジュールの静的サイトジェネレータ
+
+行けるか？
