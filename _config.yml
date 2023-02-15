@@ -40,7 +40,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
+include:
+  - doc/
+  
 markdown: GFM
 
 # kramdown:
