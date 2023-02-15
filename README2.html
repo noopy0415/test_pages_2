@@ -13,20 +13,14 @@
         </h1>
     </nav>
     <section>
-        <article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">test_pages_2</h1>
-  </header>
-
-  <div class="post-content">
-    <h1 id="testpages2">test_pages_2</h1>
+        <h1 id="testpages2">test_pages_2</h1>
 <p>リンクタグは相対pathなら問題無し</p>
 <p><a href="/test_pages_2/doc/01.html">doc/01</a></p>
 <p>GitHub Pagesの条件</p>
 <ul>
 <li>絶対pathが使いずらい
 <ul>
+<li>_config.ymlにbaseurlを</li>
 <li>`{{ site.baseurl }}`をつける必要がある。</li>
 </ul>
 </li>
@@ -35,15 +29,11 @@
 <h1 id="section">最初のページ</h1>
 <p>index.mdがあればそれを読み込みindex.htmlを生成する。
 なければREADME.mdから生成する。
-それもなかったら？</p>
-
-  </div>
-
-</article>
+それもなかったらindex.htmlは生成しない(他のページは生成する)</p>
 
 
         site.url : 
-        https://noopy0415.github.io/test_pages_2<br>
+        https://noopy0415.github.io<br>
         <!-- _config.yml のurlの値 -->
         site.baseurl : 
         /test_pages_2<br>
