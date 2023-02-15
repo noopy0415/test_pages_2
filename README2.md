@@ -11,6 +11,7 @@
 GitHub Pagesの条件
 
 - 絶対pathが使いずらい
+  - _config.ymlにbaseurlを
   - \`\{\{ site.baseurl \}\}\`をつける必要がある。
 - \{\{  \}\}をエスケープする必要がある(もともとの仕様)
 
@@ -18,4 +19,4 @@ GitHub Pagesの条件
 
 index.mdがあればそれを読み込みindex.htmlを生成する。
 なければREADME.mdから生成する。
-それもなかったら？
+それもなかったらindex.htmlは生成しない(他のページは生成する)

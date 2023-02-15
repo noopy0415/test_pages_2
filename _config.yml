@@ -3,7 +3,7 @@ title: ELITES
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   
-url: "https://noopy0415.github.io/test_pages_2" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://noopy0415.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/test_pages_2" # the subpath of your site, e.g. /blog
 # twitter_username: jekyllrb
 # github_username: noopy0415
@@ -42,7 +42,7 @@ exclude:
   - vendor/ruby/
 include:
   - doc/
-  
+
 markdown: GFM
 
 # kramdown:
