@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="{{ "/css/style.css" | relatvie_url }}">
 </head>
 <body>
     <nav>
@@ -16,9 +16,11 @@
         {{ content }}
 
         site.url : 
-        <!-- {{ site.url }}<br>_config.yml のurlの値 -->
+        {{ site.url }}<br>
+        <!-- _config.yml のurlの値 -->
         site.baseurl : 
-        <!-- {{ site.baseurl }}<br>_config.yml のbaseurlの値 -->
+        {{ site.baseurl }}<br>
+        <!-- _config.yml のbaseurlの値 -->
     </section>
     <footer>
         &copy; to me
