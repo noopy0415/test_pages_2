@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/test_pages_2/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 </head>
 <body>
     <nav>
@@ -14,9 +14,9 @@
     <section>
         {{ content }}
 
-        repositories<br>
-
+        site.url : 
         {{ site.url }}<br><!-- _config.yml のurlの値 -->
+        site.baseurl : 
         {{ site.baseurl }}<br><!-- _config.yml のbaseurlの値 -->
     </section>
     <footer>
