@@ -17,6 +17,6 @@ GitHub Pagesの条件
 
 # 最初のページ
 
-index.mdがあればそれを読み込みindex.htmlを生成する。
-なければREADME.mdから生成する。
+index.mdがあればそれを読み込みindex.htmlを生成する。  
+なければREADME.mdから生成する。  
 それもなかったらindex.htmlは生成しない(他のページは生成する)
