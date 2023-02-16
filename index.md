@@ -42,11 +42,16 @@ summoduleではなくsubtreeなら？
 - 更新
 
     ```sh
-    # git checkout リモート名/ブランチ名
-    $ git checkout markdown-test/main
-    $ git pl
+    # git subtree pull --prefix=サブツリーフォルダ リモート名 ブランチ名
+    $ git subtree pull --prefix=doc/markdown-test/ markdown-test main
+
+    # git subtree push --prefix=サブツリーフォルダ リモート名 ブランチ名
+    $ git subtree push --prefix=doc/markdown-test/ markdown-test main
     ```
 
+    このコマンドが覚えれないので`.git/config`に書いておくと便利らしい
+
+    
 - 削除
 
     ```sh

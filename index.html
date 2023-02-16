@@ -31,10 +31,13 @@
 </li>
 <li>
 <p>更新</p>
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># git checkout リモート名/ブランチ名</span>
-<span class="nv">$ </span>git checkout markdown-test/main
-<span class="nv">$ </span>git pl
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># git subtree pull --prefix=サブツリーフォルダ リモート名 ブランチ名</span>
+<span class="nv">$ </span>git subtree pull <span class="nt">--prefix</span><span class="o">=</span>doc/markdown-test/ markdown-test main
+
+<span class="c"># git subtree push --prefix=サブツリーフォルダ リモート名 ブランチ名</span>
+<span class="nv">$ </span>git subtree push <span class="nt">--prefix</span><span class="o">=</span>doc/markdown-test/ markdown-test main
 </code></pre></div></div>
+<p>このコマンドが覚えれないので<code>.git/config</code>に書いておくと便利らしい</p>
 </li>
 <li>
 <p>削除</p>
