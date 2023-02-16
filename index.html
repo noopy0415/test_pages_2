@@ -17,29 +17,5 @@
 それもなかったらindex.htmlは生成しない(他のページは生成する)</p>
 <h1 id="section-1">サブジュールの静的サイトジェネレータ</h1>
 <p>行けるか？→なぜか出来ない</p>
-<h1 id="section-2">サブツリーの静的サイトジェネレータ</h1>
 <p>summoduleではなくsubtreeなら？</p>
-<p>行けるけど、操作が面倒</p>
-<ul>
-<li>
-<p>追加</p>
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># git remote add -f リモート名 リポジトリ.git</span>
-<span class="nv">$ </span>git remote add <span class="nt">-f</span> markdown-test https://github.com/noopy0415/markdown-test.git
-<span class="c"># git read-tree --prefix=フォルダパス -u リモート名/ブランチ名</span>
-<span class="nv">$ </span>git read-tree <span class="nt">--prefix</span><span class="o">=</span>doc/markdown-test <span class="nt">-u</span> markdown-test/main
-</code></pre></div></div>
-</li>
-<li>
-<p>更新</p>
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># git checkout リモート名/ブランチ名</span>
-<span class="nv">$ </span>git checkout markdown-test/main
-<span class="nv">$ </span>git pl
-</code></pre></div></div>
-</li>
-<li>
-<p>削除</p>
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">rm</span> <span class="nt">-rf</span> 対象のフォルダ
-</code></pre></div></div>
-</li>
-</ul>
 

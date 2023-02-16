@@ -24,32 +24,4 @@ index.mdがあればそれを読み込みindex.htmlを生成する。
 
 行けるか？→なぜか出来ない
 
-# サブツリーの静的サイトジェネレータ
-
 summoduleではなくsubtreeなら？
-
-行けるけど、操作が面倒
-
-- 追加
-
-    ```sh
-    # git remote add -f リモート名 リポジトリ.git
-    $ git remote add -f markdown-test https://github.com/noopy0415/markdown-test.git
-    # git read-tree --prefix=フォルダパス -u リモート名/ブランチ名
-    $ git read-tree --prefix=doc/markdown-test -u markdown-test/main
-    ```
-
-- 更新
-
-    ```sh
-    # git checkout リモート名/ブランチ名
-    $ git checkout markdown-test/main
-    $ git pl
-    ```
-
-- 削除
-
-    ```sh
-    $ rm -rf 対象のフォルダ
-    ```
-
