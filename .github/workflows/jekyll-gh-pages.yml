@@ -21,8 +21,8 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v1
   # jekyll:
   #   runs-on: ubuntu-latest # can change this to ubuntu-latest if you prefer
   #   steps:
