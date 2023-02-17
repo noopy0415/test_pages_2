@@ -51,10 +51,24 @@ summoduleではなくsubtreeなら？
 
     このコマンドが覚えれないので`.git/config`に書いておくと便利らしい
 
-    
+    - !をつけると`git subpull`のgitからすべて置き換える
+    - つなげれば複数のsubtreeの更新が一発
+
+    ```diff
+    + [alias]
+    +   subpull = \
+    +   !git subtree pull --prefix=doc/markdown-test markdown-test main && \
+    +    git subtree pull --prefix=doc/markdown-test markdown-test main \
+      [core]
+      ...
+    ```
 - 削除
 
     ```sh
-    $ rm -rf 対象のフォルダ
+    # git remote remove リモート名
+    $ git remote remove markdown-test
+
+    # rm -rf 対象のフォルダ名
+    $ rm -rf doc/markdown-test
     ```
 

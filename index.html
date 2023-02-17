@@ -38,10 +38,25 @@
 <span class="nv">$ </span>git subtree push <span class="nt">--prefix</span><span class="o">=</span>doc/markdown-test/ markdown-test main
 </code></pre></div></div>
 <p>このコマンドが覚えれないので<code>.git/config</code>に書いておくと便利らしい</p>
+<ul>
+<li>!をつけると<code>git subpull</code>のgitからすべて置き換える</li>
+<li>つなげれば複数のsubtreeの更新が一発</li>
+</ul>
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gi">+ [alias]
++   subpull = \
++   !git subtree pull --prefix=doc/markdown-test markdown-test main &amp;&amp; \
++    git subtree pull --prefix=doc/markdown-test markdown-test main \
+</span>  [core]
+  ...
+</code></pre></div></div>
 </li>
 <li>
 <p>削除</p>
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">rm</span> <span class="nt">-rf</span> 対象のフォルダ
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># git remote remove リモート名</span>
+<span class="nv">$ </span>git remote remove markdown-test
+
+<span class="c"># rm -rf 対象のフォルダ名</span>
+<span class="nv">$ </span><span class="nb">rm</span> <span class="nt">-rf</span> doc/markdown-test
 </code></pre></div></div>
 </li>
 </ul>
