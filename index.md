@@ -6,6 +6,7 @@
 リンクタグは相対pathなら問題無し
 
 [doc/01](doc/01.md)
+[markdown-test](doc/markdown-test/README.md)
 
 GitHub Pagesの条件
 
