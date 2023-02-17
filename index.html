@@ -1,64 +1,7 @@
 <h1 id="testpages2">test_pages_2</h1>
 <p>リンクタグは相対pathなら問題無し</p>
-<p><a href="/test_pages_2/doc/01.html">doc/01</a>
-<a href="/test_pages_2/doc/markdown-test/README.html">markdown-test</a></p>
-<p>GitHub Pagesの条件</p>
-<ul>
-<li>絶対pathが使いずらい
-<ul>
-<li>_config.ymlにbaseurlを</li>
-<li>`{{ site.baseurl }}`をつける必要がある。</li>
-</ul>
-</li>
-<li>{{  }}をエスケープする必要がある(もともとの仕様)</li>
-</ul>
-<h1 id="section">最初のページ</h1>
-<p>index.mdがあればそれを読み込みindex.htmlを生成する。<br />
-なければREADME.mdから生成する。<br />
-それもなかったらindex.htmlは生成しない(他のページは生成する)</p>
-<h1 id="section-1">サブジュールの静的サイトジェネレータ</h1>
-<p>行けるか？→なぜか出来ない</p>
-<h1 id="section-2">サブツリーの静的サイトジェネレータ</h1>
-<p>summoduleではなくsubtreeなら？</p>
-<p>行けるけど、操作が面倒</p>
-<ul>
-<li>
-<p>追加</p>
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># git remote add -f リモート名 リポジトリ.git</span>
-<span class="nv">$ </span>git remote add <span class="nt">-f</span> markdown-test https://github.com/noopy0415/markdown-test.git
-<span class="c"># git read-tree --prefix=フォルダパス -u リモート名/ブランチ名</span>
-<span class="nv">$ </span>git read-tree <span class="nt">--prefix</span><span class="o">=</span>doc/markdown-test <span class="nt">-u</span> markdown-test/main
-</code></pre></div></div>
-</li>
-<li>
-<p>更新</p>
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># git subtree pull --prefix=サブツリーフォルダ リモート名 ブランチ名</span>
-<span class="nv">$ </span>git subtree pull <span class="nt">--prefix</span><span class="o">=</span>doc/markdown-test/ markdown-test main
-
-<span class="c"># git subtree push --prefix=サブツリーフォルダ リモート名 ブランチ名</span>
-<span class="nv">$ </span>git subtree push <span class="nt">--prefix</span><span class="o">=</span>doc/markdown-test/ markdown-test main
-</code></pre></div></div>
-<p>このコマンドが覚えれないので<code>.git/config</code>に書いておくと便利らしい</p>
-<ul>
-<li>!をつけると<code>git subpull</code>のgitからすべて置き換える</li>
-<li>つなげれば複数のsubtreeの更新が一発</li>
-</ul>
-<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gi">+ [alias]
-+   subpull = \
-+   !git subtree pull --prefix=doc/markdown-test markdown-test main &amp;&amp; \
-+    git subtree pull --prefix=doc/markdown-test markdown-test main \
-</span>  [core]
-  ...
-</code></pre></div></div>
-</li>
-<li>
-<p>削除</p>
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># git remote remove リモート名</span>
-<span class="nv">$ </span>git remote remove markdown-test
-
-<span class="c"># rm -rf 対象のフォルダ名</span>
-<span class="nv">$ </span><span class="nb">rm</span> <span class="nt">-rf</span> doc/markdown-test
-</code></pre></div></div>
-</li>
-</ul>
+<p><a href="/test_pages_2/doc/01.html">doc/01.md</a>
+<a href="/test_pages_2/doc/markdown-test/README.html">doc/markdown-test/README.md</a></p>
+<p><a href="/test_pages_2/doc/01.html">/doc/01.md</a>
+<a href="/test_pages_2/doc/markdown-test/README.html">/doc/markdown-test/README.md</a></p>
 
